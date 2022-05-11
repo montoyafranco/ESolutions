@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Esolutions</title>
+  </head>
+  <body>
+    <header>
+      <h2>Seccion de Preguntas y Registro </h2>
+    </header>
+    <main>
+      
+    <form  id="forma" class="forma2">
+      
+      
+      
+      <fieldset>
+        <legend><span class="number">1</span>Tu informacion basica</legend>
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="name" name="user_name">
+        
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email">
+
+        <label for="edad">Fecha de nacimiento</label>
+        <input type="date" id="edad" name="user_name">
+
+        <label for="ubication">Direccion</label>
+        <input type="text" id="direccion" name="user_email">
+        
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="user_password">
+        
+        <label>Edad:</label>
+        <input type="number" id="" value="18" min="1" name="user_age">
+        <label for="job">Genero</label>
+      <select id="job" name="user_job">
+        <optgroup label="Generos">
+          <option value="genero">Sin Especificar</option>
+          <option value="hombre">Hombre</option>
+          <option value="Mujer">Mujer</option>
+          <option value="Otro"> Otro</option>
+        
+        </optgroup>
+        
+      </select>
+      
+        
+      
+      
+      
+      </fieldset>
+      <footer  id="contact" class="footer"></footer>
+      <button tipe="submit" id="boton">Registrarse y seguir con la encuesta</button>
+    </form>
+
+
+    
+    <form  id="forma3" class="forma3">
+      
+      
+      
+      <fieldset>
+        <legend><span class="number">1</span>Preguntas Personales</legend>
+        <label for="Nombre">¿Cuantas mascotas tiene y de que color son?</label>
+        <input type="text" id="mascotas" name="mascotas">
+
+        <label for="Nombre">¿Que tecnologia se ve utilizando en 5 años?</label>
+        <input type="text" id="tecnologia" name="user_name">
+
+        <label for="Nombre">¿Cuantas horas al dia esta en el pc?</label>
+        <input type="text" id="pc" name="user_name">
+
+        <label for="Nombre">¿Como se llaman tus juegos preferidos</label>
+        <input type="text" id="juegos" name="user_name">
+        
+        
+      
+      
+      </fieldset>
+      <footer  id="contact" class="footer"></footer>
+      <button tipe="submit" id="boton2">Terminar encuesta y volver al inicio</button>
+    </form>
+
+    <div id="contact"></div>
+    <script src="/javascript.js"></script>
+  </body>
+</html>
